@@ -1,0 +1,17 @@
+{
+  "name": "bdadays-pm-tester",
+  "version": "0.1.0",
+  "description": "A Node.js app for testing the Predictive Model developed during BDA Days Labs",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "request": "~2.36.0",
+    "body-parser": "~1.0.1"
+  },
+	"engines": {
+		"node": "0.10.26"
+	},
+	"repository": {}
+}

@@ -1,0 +1,15 @@
+---
+declared-services:
+  mypmsvc:
+    label: pm-20
+    plan: free
+
+applications:
+- host: bdadays-pm-tester
+  name: bdadays-pm-tester
+  command: node app.js
+  instances: 1
+  memory: 64M
+  
+  services:
+  - mypmsvc
