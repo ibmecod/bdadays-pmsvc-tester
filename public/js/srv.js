@@ -8,9 +8,9 @@ function($http)	{
 	this.getScore	=	function(context, p) {
 		/* create the scoring input object */
 		var input = {
-			tablename: 'scoreInput',			
-			header: [ 'age', 'sex', 'familyhistory', 'smokerlast5yrs', 'exerciseminperweek', 'cholesterol', 'bmi', 'avgheartbeatspermin', 'palpitationsperday'  ],				
-			data: [[ p.age, p.sex, p.familyhistory, p.smokerlast5yrs, p.exerciseminperweek, p.cholesterol, p.bmi, p.avgheartbeatspermin, p.palpitationsperday ]]
+		    tablename: 'scoreInput',			
+			header: [ 'AGE', 'SEX', 'FAMILYHISTORY', 'SMOKERLAST5YRS', 'EXERCISEMINPERWEEK', 'CHOLESTEROL', 'BMI', 'AVGHEARTBEATSPERMIN', 'PALPITATIONSPERDAY'  ],				
+			data: [[ p.AGE, p.SEX, p.FAMILYHISTORY, p.SMOKERLAST5YRS, p.EXERCISEMINPERWEEK, p.CHOLESTEROL, p.BMI, p.AVGHEARTBEATSPERMIN, p.PALPITATIONSPERDAY ]]
 		};
    
 		/* call	scoring service	to generate results */

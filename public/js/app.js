@@ -15,7 +15,7 @@ function AppCtrl($scope,	dialogServices, dataServices)	{
 	
 	// init UI data model
 	
-	$scope.p = { age:'44',	sex:'F', familyhistory:'Y', smokerlast5yrs: 'Y', exerciseminperweek:'125', cholesterol:'242', bmi:'24', avgheartbeatspermin: '100', palpitationsperday: '85'  };
+	$scope.p = { AGE:'44',	SEX:'F', FAMILYHISTORY:'Y', SMOKERLAST5YRS: 'Y', EXERCISEMINPERWEEK:'125', CHOLESTEROL:'242', BMI:'24', AVGHEARTBEATSPERMIN: '100', PALPITATIONSPERDAY: '85'  };
 		
 	$scope.score = function()	{
 		dataServices.getScore($scope.context, $scope.p)
