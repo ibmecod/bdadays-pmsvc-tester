@@ -8,10 +8,14 @@
   "dependencies": {
     "express": "~4.0.0",
     "request": "~2.36.0",
-    "body-parser": "~1.0.1"
+    "body-parser": "~1.0.1",
+    "cf-deployment-tracker-client":"*"
   },
 	"engines": {
 		"node": "0.10.26"
 	},
-	"repository": {}
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/ibmecod/bdadays-pmsvc-tester.git"
+	}
 }

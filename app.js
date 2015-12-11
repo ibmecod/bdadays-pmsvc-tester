@@ -96,3 +96,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 // =============================================================================
 app.listen(port, host);
 console.log('App started on port ' + port);
+
+require("cf-deployment-tracker-client").track();

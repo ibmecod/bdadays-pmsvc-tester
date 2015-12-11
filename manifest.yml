@@ -2,7 +2,7 @@
 declared-services:
   mypmsvc:
     label: pm-20
-    plan: free
+    plan: Free
 
 applications:
 - host:  bdadays-pm-tester
