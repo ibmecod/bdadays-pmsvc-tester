@@ -4,6 +4,10 @@ This version of the app is to be used with Lab 3 of the [IBM BDA Days Workshop] 
 
 See the [original app]  (https://github.com/pmservice/predictive-modeling-samples) for a walkthrough of the source code. 
 
+# One click deploy to Bluemix
+Use this button to deploy this application directly to your Bluemix 
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy) 
+
 # Privacy Notice
 
 Sample web applications that include this package may be configured to track deployments to [IBM Bluemix](https://www.bluemix.net/) and other Cloud Foundry platforms. The following information is sent to a [Deployment Tracker](https://github.com/IBM-Bluemix/cf-deployment-tracker-service) service on each deployment:
